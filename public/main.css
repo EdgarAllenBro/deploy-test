@@ -33,13 +33,14 @@ color:rgb(255, 124, 92)
 }
 
 #formBox {
+    display: flex;
+    flex-direction: column;
     background-color: seashell;
-    width: 20vw;
-    height: 25vh;
+    width: 200px;
+    height: 300px;
     border-radius: 15px;
     position: relative;
-    top:30px;
-    left:60vw
+    top:10vh;
 }
 
 #signUp{
@@ -55,16 +56,19 @@ color:rgb(255, 124, 92)
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 40vw;
-    height: 50vh;
+    width: 400px;
+    height: 500px;
     background-color:rgb(32, 90, 30,.8);
     color: seashell;
     border-radius: 15px;
-    position: absolute;
     margin:10px
 }
 .detail{
     margin:0px 20px 0px 20px;
     font-weight:bold;
     font-size: 17px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
 }
