@@ -14,7 +14,7 @@
 }
 
 #links{
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-evenly;
     padding-right:10vw
@@ -24,4 +24,47 @@ body{
     background-image: url('https://i.pinimg.com/originals/9c/16/a0/9c16a004072f9bb08ee5cba2541932a9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.hlinks{
+    color:rgb(98, 81, 252)
+}
+.hlink:hover{
+color:rgb(255, 124, 92)
+}
+
+#formBox {
+    background-color: seashell;
+    width: 20vw;
+    height: 25vh;
+    border-radius: 15px;
+    position: relative;
+    top:30px;
+    left:60vw
+}
+
+#signUp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inputField{
+    margin: 10px;
+}
+#detailsBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40vw;
+    height: 50vh;
+    background-color:rgb(32, 90, 30,.8);
+    color: seashell;
+    border-radius: 15px;
+    position: absolute;
+    margin:10px
+}
+.detail{
+    margin:0px 20px 0px 20px;
+    font-weight:bold;
+    font-size: 17px;
 }
