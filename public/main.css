@@ -1,3 +1,27 @@
-h1{
-    background-color: red;
+#Title{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+
+#headBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 255, 230,.6);
+    align-items: center;
+    height:8vh;
+    position:sticky;
+}
+
+#links{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right:10vw
+}
+body{
+    margin:0;
+    background-image: url('https://i.pinimg.com/originals/9c/16/a0/9c16a004072f9bb08ee5cba2541932a9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
